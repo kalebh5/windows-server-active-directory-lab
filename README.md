@@ -14,6 +14,7 @@ The goal of the lab was to develop practical experience with Windows Server admi
 
 This project was completed in a virtualized environment using Oracle VirtualBox.
 
+
 ### Virtual Machine Environment
 
 The lab environment consists of 3 virtual machines:
@@ -35,11 +36,11 @@ Windows Server 2025 was installed on both server virtual machines, while Windows
 
 ### Network Configuration
 
-IP configuration was verified on all three virtual machines using `ipconfig /all`.
+IP configuration was verified on all three virtual machines using `ipconfig /all`. This was used to confirm the network settings of the two Windows Server 2025 systems and the Windows 11 client before configuring the Active Directory environment.
 
 ### Network Connectivity Verification
 
-Connectivity between the three virtual machines was verified using `ping`.
+Connectivity between the three virtual machines was verified using `ping`. Each system successfully communicated with the other two virtual machines, confirming network connectivity before proceeding with domain and Active Directory configuration.
 
 
 
@@ -55,7 +56,7 @@ The primary Windows Server was configured as a domain controller for the `savn.l
 
 ### Domain Configuration
 
-The server was configured within the `savn.local` Active Directory domain.
+The domain controller was configured for the `savn.local` domain, establishing the Active Directory environment used throughout the remainder of the lab.
 
 ### Domain Computer Enrollment
 
@@ -63,7 +64,7 @@ The secondary Windows Server and Windows 11 client were joined to the `savn.loca
 
 ### Active Directory Computer Objects
 
-The domain-joined computers were verified within Active Directory.
+The domain-joined computers were verified as computer objects within the `savn.local` Active Directory environment.
 
 
 

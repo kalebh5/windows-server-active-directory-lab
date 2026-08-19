@@ -1,19 +1,33 @@
 # windows-server-active-directory-lab
 Active Directory Domain Services lab demonstrating Windows Server domain configuration, user and group management, organizational units, and Group Policy.
 
+## Project Overview
+
+This project documents the configuration and administration of a Windows Server Active Directory environment built using Oracle VirtualBox. The lab consists of two Windows Server 2025 virtual machines and one Windows 11 client, which were configured to communicate over a shared virtual network.
+
+The project progresses from initial system and network configuration into Active Directory Domain Services (AD DS) and DNS deployment, domain controller configuration, domain enrollment, user and organizational unit management, authentication testing, scheduled task administration, and PowerShell scripting.
+
+The goal of the lab was to develop practical experience with Windows Server administration, Active Directory, domain-based authentication, task scheduling, and PowerShell automation in a controlled virtual environment.
+
+
 ## Lab Environment
 
-### Virtual Machine Setup
-
-### Operating Systems
-
-
-
-## 1. Initial Environment Configuration
+This project was completed in a virtualized environment using Oracle VirtualBox.
 
 ### Virtual Machine Environment
 
-The lab environment consists of two Windows Server 2025 virtual machines and one Windows 11 client virtual machine.
+The lab environment consists of 3 virtual machines:
+-Two Windows Server 2025 virtual machines
+-One Windows 11 client virtual machine
+
+### Operating Systems
+
+- **KH-SP26-S25-S1** — Windows Server 2025
+- **KH-SP26-S25-S2** — Windows Server 2025
+- **KH-SP26-W11-C1** — Windows 11
+
+
+## 1. Initial Environment Configuration
 
 ### Operating System Installation
 

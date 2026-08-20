@@ -72,11 +72,11 @@ The domain-joined computers were verified as computer objects within the `savn.l
 
 ### Organizational Units
 
-Organizational Units were created within the `savn.local` Active Directory environment to organize domain objects.
+Organizational Units were created within the `savn.local` Active Directory environment to organize and manage domain objects.
 
 ### Local User Accounts
 
-A local user account was created and used to demonstrate local authentication on a domain-connected system.
+A local user account was created on a domain-connected Windows Server system and used to demonstrate local authentication and account management.
 
 ### Domain User Accounts
 
@@ -88,7 +88,7 @@ Local and domain user accounts were used to demonstrate the difference between l
 
 ### Domain Availability and Authentication
 
-Domain authentication behavior was tested when the domain server was unavailable.
+Domain authentication was tested while the domain server was unavailable to observe how domain-based login behavior is affected when the domain controller cannot be reached.
 
 
 
@@ -96,7 +96,7 @@ Domain authentication behavior was tested when the domain server was unavailable
 
 ### Scheduled Task Creation
 
-Scheduled tasks were created and configured using Windows Task Scheduler.
+Scheduled tasks were created using Windows Task Scheduler and configured with specific triggers and actions.
 
 ### Task Triggers and Actions
 
@@ -104,19 +104,19 @@ Task triggers and actions were configured to control when scheduled tasks execut
 
 ### Task Execution
 
-A scheduled task was configured to execute under the `domainUser01` account on the domain-connected system.
+A scheduled task was configured to execute under the `domainUser01` account on `KH-SP26-S25-S2` and its execution was verified.
 
 ### Remote Task Verification
 
-The scheduled task was verified on the remote system and confirmed to be running under the expected domain account.
+The scheduled task was verified on the remote `S2` system and confirmed to be running under the expected domain account.
 
 ### PowerShell-Scripted Task
 
-A `displayDateMessage` task was created to demonstrate scheduled execution of a PowerShell-based action.
+A `displayDateMessage` task was created using a PowerShell-based action. The task was configured with a defined trigger and action to automate execution.
 
 ### Task Registration and Execution
 
-The PowerShell-based task was registered in the Task Scheduler library and its execution was verified.
+The PowerShell-based task was verified as registered in the Task Scheduler library and its execution was confirmed.
 
 
 

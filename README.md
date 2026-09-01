@@ -17,7 +17,9 @@ This project was completed in a virtualized environment using Oracle VirtualBox.
 ### Virtual Machine Environment
 
 The lab environment consists of 3 virtual machines:
+
 -Two Windows Server 2025 virtual machines
+
 -One Windows 11 client virtual machine
 
 ### Operating Systems

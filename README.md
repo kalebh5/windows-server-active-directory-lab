@@ -14,7 +14,6 @@ The goal of the lab was to develop practical experience with Windows Server admi
 
 This project was completed in a virtualized environment using Oracle VirtualBox.
 
-
 ### Virtual Machine Environment
 
 The lab environment consists of 3 virtual machines:
@@ -122,6 +121,6 @@ The PowerShell-based task was verified as registered in the Task Scheduler libra
 
 ## Skills Demonstrated
 
-## Future Work
+## Potential Extensions
 
 ## Conclusion

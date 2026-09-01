@@ -217,6 +217,16 @@ The PowerShell-based task was verified as registered in the Task Scheduler libra
 
 ## Skills Demonstrated
 
+- **Windows Server 2025 Administration** — Installation, configuration, and management of Windows Server virtual machines
+- **Active Directory Domain Services (AD DS)** — Domain controller deployment, domain configuration, computer enrollment, user account management, and Organizational Unit management
+- **DNS** — DNS role installation and configuration as part of the Active Directory environment
+- **Network Configuration & Troubleshooting** — IP configuration, virtual network setup, and connectivity verification using `ipconfig` and `ping`
+- **User & Authentication Management** — Local and domain user creation, domain-based authentication, and authentication testing during domain controller unavailability
+- **Windows Task Scheduler** — Scheduled task creation, trigger/action configuration, remote task registration, and task execution
+- **PowerShell** — PowerShell-based task automation and scripted task execution
+- **Virtualization** — Oracle VirtualBox virtual machine deployment and management
+
+
 ## Potential Extensions
 
 ## Conclusion

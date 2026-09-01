@@ -236,7 +236,6 @@ These are areas I could explore to further expand the existing lab environment a
 - **Network Traffic Analysis** — Use Wireshark to capture and analyze network traffic between the domain controller, servers, and client to examine protocols such as DNS and authentication traffic.
 
 
-## Conclusion
 
 ## Conclusion
 

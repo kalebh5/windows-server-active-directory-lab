@@ -229,4 +229,15 @@ The PowerShell-based task was verified as registered in the Task Scheduler libra
 
 ## Potential Extensions
 
+These are areas I could explore to further expand the existing lab environment and build on the skills demonstrated in this project. Future additions would focus on strengthening security, expanding Active Directory management, and gaining hands-on experience with network traffic analysis.
+
+- **Additional Security Layers** — Expand the lab with additional security hardening, access controls, auditing, and security configurations.
+- **Advanced Active Directory Management** — Expand user and group management, permissions, Group Policy, and other Active Directory administration tasks.
+- **Network Traffic Analysis** — Use Wireshark to capture and analyze network traffic between the domain controller, servers, and client to examine protocols such as DNS and authentication traffic.
+
+
 ## Conclusion
+
+## Conclusion
+
+This project provided hands-on experience building and administering a Windows Server Active Directory environment in a virtualized network. Through configuring AD DS and DNS, managing users and organizational units, testing authentication, and creating scheduled tasks with PowerShell, I developed practical experience with Windows Server administration, Active Directory, and system automation.

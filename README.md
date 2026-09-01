@@ -39,9 +39,15 @@ Windows Server 2025 was installed on both server virtual machines, while Windows
 
 IP configuration was verified on all three virtual machines using `ipconfig /all`. This was used to confirm the network settings of the two Windows Server 2025 systems and the Windows 11 client before configuring the Active Directory environment.
 
+![Windows 11 IP Configuration](screenshots/01-environment-setup/01-windows11-ipconfig.png)
+
+![Server 1 IP Configuration](screenshots/01-environment-setup/02-server1-ipconfig.png)
+
 ### Network Connectivity Verification
 
 Connectivity between the three virtual machines was verified using `ping`. Each system successfully communicated with the other two virtual machines, confirming network connectivity before proceeding with domain and Active Directory configuration.
+
+![Server 1 Connectivity](screenshots/01-environment-setup/03-server1-connectivity.png)
 
 
 

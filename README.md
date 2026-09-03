@@ -1,4 +1,4 @@
-# windows-server-active-directory-lab
+# Windows Server Active Directory Lab
 Active Directory Domain Services lab demonstrating Windows Server domain configuration, user and group management, organizational units, and Group Policy.
 
 ## Project Overview
@@ -18,9 +18,8 @@ This project was completed in a virtualized environment using Oracle VirtualBox.
 
 The lab environment consists of 3 virtual machines:
 
--Two Windows Server 2025 virtual machines
-
--One Windows 11 client virtual machine
+- Two Windows Server 2025 virtual machines
+- One Windows 11 client virtual machine
 
 ### Operating Systems
 
@@ -71,7 +70,7 @@ Active Directory Domain Services and DNS roles were installed on the primary Win
 
 ### Domain Controller Configuration
 
-The primary Windows Server was configured as a domain controller for the `savn.local` domain.
+The primary Windows Server was configured as a domain controller for the `savn.local` domain,establishing the Active Directory environment used throughout the remainder of the lab.
 
 <br>
 
@@ -79,9 +78,6 @@ The primary Windows Server was configured as a domain controller for the `savn.l
 
 <br><br>
 
-### Domain Configuration
-
-The domain controller was configured for the `savn.local` domain, establishing the Active Directory environment used throughout the remainder of the lab.
 
 ### Domain Computer Enrollment
 
